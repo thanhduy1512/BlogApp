@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BlogApp.Controllers
 {
-    public class UserController : Controller
+    public class UsersController : Controller
     {
         private readonly MvcBlogContext _context;
 
-        public UserController(MvcBlogContext context)
+        public UsersController(MvcBlogContext context)
         {
             _context = context;
         }
